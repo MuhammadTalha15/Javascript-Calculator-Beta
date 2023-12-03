@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa',cursive;
+}
+
+html{
+    font-size: 10px;
+}
+
+@font-face{
+    src: url(ds_digital/DS-DIGI.TTF);
+    font-family: 'Digital';
+}
+
+:root{
+    --background: #517bc9;
+    --darkest: #22263a;
+    --pale-dark: #2e2e64;
+    --light: #c1ccdf;
+    --lightest: #F0ECE5;
+}
+
+.mn{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+.clctr-cnt{
+    position: relative;
+    height: 63.5rem;
+    width: 36rem;
+    background-color: #fafafa;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.5));
+}
+
+.disp-cnt{
+    height: 18.6rem;
+    width: 100%;
+    border-bottom: rgba(0, 0, 0, 0.082);
+    border-radius: 10px 10px 0 0;
+}
+
+.disp{
+    height: 100%;
+    width: 100%;
+    font-size: 7rem;
+    text-align: right;
+    padding: 0 1rem;
+    border-radius: 10px 10px 0 0;
+    pointer-events: none;
+    background-color: var(--darkest);
+    border: none;
+    font-family: 'Digital';
+    color: #fafafa;
+}
+
+.btn-cnt{
+    position: absolute;
+    width: 100%;
+    height: 45rem;
+    bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.btn-ri{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.btn{
+    height: 100%;
+    width: 9rem;
+    background: transparent;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.eq{
+    width: 18rem;
+    border-radius: 0 0 10px 0;
+    background: linear-gradient(135deg, #171b3f, #262e6b);
+    color: #fafafa;
+}
+
+.bttm{
+    border-radius: 0 0 0 10px;
+}
+
+.lt{
+    background-color: var(--light);
+    border: 1.5px solid rgba(26, 26, 26, 0.082);
+    transition: 0.3s;
+}
+
+.lt:hover{
+    background-color: #b2bdce;
+}
+
+.ar{
+    background-color: var(--pale-dark);
+    color: #fafafa;
+    border: 1.5px solid rgba(26, 26, 26, 0.3);
+    transition: 0.3s;
+}
+
+.ar:hover{
+    background-color: #252550;
+}
+
+@media only screen and (max-width: 380px) {
+    html{
+        font-size: 5.5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 7.5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    html{
+        font-size: 11px;
+    }
+}
