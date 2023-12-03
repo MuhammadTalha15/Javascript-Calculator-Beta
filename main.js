@@ -4,34 +4,34 @@ let display = document.getElementById('disp');
 let btns = document.querySelectorAll('#btn');
 
 btns.forEach(btn => {
-    btn.addEventListener('click', (e)=>{
+    btn.addEventListener('click', (e) => {
         let value;
         value = e.target.value;
         display.value += value
     })
 });
 
-const perform_valid_operation = ()=>{
+const perform_valid_operation = () => {
     const equal_btn = document.getElementById('equals');
-    
-    equal_btn.addEventListener('click', ()=>{
+
+    equal_btn.addEventListener('click', () => {
         let result = eval(display.value);
         display.value = result;
     });
 }
 
-const clear_all = ()=>{
+const clear_all = () => {
     const clear_btn = document.getElementById('clear-all')
 
-    clear_btn.addEventListener('click', ()=>{
+    clear_btn.addEventListener('click', () => {
         display.value = '';
     });
 }
 
-const delete_char = ()=>{
+const delete_char = () => {
     const delete_char = document.getElementById('delete');
 
-    delete_char.addEventListener('click', ()=>{
+    delete_char.addEventListener('click', () => {
         let data = display.value;
         display.value = data.slice(0, -1);
     });
