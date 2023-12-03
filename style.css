@@ -97,6 +97,10 @@ html{
     color: #fafafa;
 }
 
+.eq:hover{
+    background: linear-gradient(135deg, #11142e, #1f2557);
+}
+
 .bttm{
     border-radius: 0 0 0 10px;
 }
