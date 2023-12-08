@@ -15,7 +15,20 @@ const perform_valid_operation = () => {
     const equal_btn = document.getElementById('equals');
 
     equal_btn.addEventListener('click', () => {
-        let result = eval(display.value);
+        let result;
+
+        try{
+        const value = parseFloat(display.value);
+            if(isFinite(value){
+                result = eval(display.value);
+            }
+            else{
+                result = 'Math Error';
+            }
+        }
+        catch(Error){
+            result = 'Math Error';
+        }
         display.value = result;
     });
 }
