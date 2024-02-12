@@ -29,6 +29,10 @@ I appreciate your feedback and suggestions as I strive to make the Simple Calcul
 You can try out the Simple Calculator demo [here](https://muhammadtalha15.github.io/Javascript-Calculator-Beta/).
 
 ## Contributing
-If you'd like to contribute to the Simple Calculator project, feel free to fork the repository, make your changes, and submit a pull request. I welcome contributions of all kinds, including bug fixes, new features, and improvements to documentation and code quality.
+If you'd like to contribute to the Simple Calculator project, feel free to fork the repository.
+``` bash
+git clone https://github.com/muhammadtalha15/Javascript-Calculator-Beta.git
+```
+Make your changes, and submit a pull request. I welcome contributions of all kinds, including bug fixes, new features, and improvements to documentation and code quality.
 
 Thank you for using the Simple Calculator!
