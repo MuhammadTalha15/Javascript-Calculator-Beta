@@ -13,7 +13,7 @@ Welcome to the Simple Calculator! This calculator is built using HTML, CSS, and 
 3. Enter the second number.
 4. Press the "=" button to see the result.
 5. To clear the screen, press the "AC" button.
-6. For Deleting, press the "C" button.
+6. For Deleting, press the "DE" button.
 
 ## Future Updates
 We are continuously working to enhance the functionality of our Simple Calculator. Some of the planned updates include:
