@@ -17,6 +17,7 @@ Welcome to the Simple Calculator! This calculator is built using HTML, CSS, and 
 
 ## Future Updates
 We are continuously working to enhance the functionality of our Simple Calculator. Some of the planned updates include:
+- Working on new UI Design for better Experience of Users.
 - Support for more advanced mathematical operations (exponentiation, square root, etc.).
 - Improved user interface with a history feature to view previous calculations.
 - Option to change themes and customize the calculator appearance.
