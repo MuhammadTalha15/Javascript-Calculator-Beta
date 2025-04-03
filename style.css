@@ -17,9 +17,9 @@ html{
 }
 
 :root{
-    --background: #517bc9;
-    --darkest: #22263a;
-    --pale-dark: #2e2e64;
+    --background: #222323;
+    --darkest: #090b11;
+    --pale-dark: #181821;
     --light: #c1ccdf;
     --lightest: #F0ECE5;
 }
@@ -93,12 +93,12 @@ html{
 .eq{
     width: 18rem;
     border-radius: 0 0 10px 0;
-    background: linear-gradient(135deg, #171b3f, #262e6b);
+    background: linear-gradient(135deg, #05060d, #26262a);
     color: #fafafa;
 }
 
 .eq:hover{
-    background: linear-gradient(135deg, #11142e, #1f2557);
+    background: linear-gradient(135deg, #05060d, #1b1b1e);
 }
 
 .bttm{
